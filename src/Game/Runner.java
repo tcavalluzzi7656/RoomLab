@@ -28,7 +28,7 @@ public class Runner {
 
 
 
-
+        //create a teleport room
         int x = (int)(Math.random()*building.length);
         int y = (int)(Math.random()*building.length);
         building[x][y] = new TeleportRoom(x, y);

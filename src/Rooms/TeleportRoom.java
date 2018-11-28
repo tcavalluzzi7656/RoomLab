@@ -12,7 +12,7 @@ public class TeleportRoom extends Room
     }
 
     /**
-     * Triggers the game ending conditions.
+     * Teleports the player to a random location
      * @param x the Person entering
      */
     @Override
@@ -23,7 +23,7 @@ public class TeleportRoom extends Room
         yLoc=(int)(Math.random()*6);
         x.setxLoc(this.xLoc);
         x.setyLoc(this.yLoc);
-        System.out.println("Teedle dee teedle dum! I have now teleported your bum!");
+        System.out.println("Teedle dee teedle dum! I just teleported your bum!");
     }
 
 
